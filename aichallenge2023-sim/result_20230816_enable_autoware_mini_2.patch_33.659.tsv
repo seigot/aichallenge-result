@@ -1,0 +1,8 @@
+Player	rawDistanceSocre	distanceScore	task3Duration	isOutsideLane	isTimeout	hasCollided	hasExceededSpeedLimit	hasFinishedTask1	hasFinishedTask2	hasFinishedTask3
+20230815074407_seigot_main_20230816_enable_autoware_mini_2.patch	33.4067	31.7364	3.19997	false	false	true	false	false	true	false
+20230815074950_seigot_main_20230816_enable_autoware_mini_2.patch	33.5407	31.8637	3.19999	false	false	true	false	false	true	false
+20230815075532_seigot_main_20230816_enable_autoware_mini_2.patch	0.106753	0.101415	0	true	false	false	false	false	true	false
+20230815080114_seigot_main_20230816_enable_autoware_mini_2.patch	33.4179	31.747	3.19993	false	false	true	false	false	true	false
+20230815080656_seigot_main_20230816_enable_autoware_mini_2.patch	33.659	31.976	3.39814	false	false	true	false	false	true	false
+20230815081238_seigot_main_20230816_enable_autoware_mini_2.patch	33.6792	31.9953	3.39974	false	false	true	false	false	true	false
+20230815081820_seigot_main_20230816_enable_autoware_mini_2.patch	33.6392	31.9572	3.39785	false	false	true	false	false	true	false
