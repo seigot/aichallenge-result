@@ -1,0 +1,8 @@
+Player	rawDistanceSocre	distanceScore	task3Duration	isOutsideLane	isTimeout	hasCollided	hasExceededSpeedLimit	hasFinishedTask1	hasFinishedTask2	hasFinishedTask3
+20230815061020_seigot_main_20230816_lanechange_pullout_sideshift_pullover_false.patch	-1	-1	-1	false	false	false	false	false	false	false
+20230815061603_seigot_main_20230816_lanechange_pullout_sideshift_pullover_false.patch	52.7902	50.1507	24.7989	false	false	true	false	false	true	false
+20230815062326_seigot_main_20230816_lanechange_pullout_sideshift_pullover_false.patch	-1	-1	-1	false	false	false	false	false	false	false
+20230815063050_seigot_main_20230816_lanechange_pullout_sideshift_pullover_false.patch	-1	-1	-1	false	false	false	false	false	false	false
+20230815063813_seigot_main_20230816_lanechange_pullout_sideshift_pullover_false.patch	-1	-1	-1	false	false	false	false	false	false	false
+20230815064537_seigot_main_20230816_lanechange_pullout_sideshift_pullover_false.patch	-1	-1	-1	false	false	false	false	false	false	false
+20230815065300_seigot_main_20230816_lanechange_pullout_sideshift_pullover_false.patch	-1	-1	-1	false	false	false	false	false	false	false
