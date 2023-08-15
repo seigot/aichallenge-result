@@ -1,0 +1,8 @@
+Player	rawDistanceSocre	distanceScore	task3Duration	isOutsideLane	isTimeout	hasCollided	hasExceededSpeedLimit	hasFinishedTask1	hasFinishedTask2	hasFinishedTask3
+20230815095259_seigot_main_20230816_task01.patch	-1	-1	-1	false	false	false	false	false	false	false
+20230815100023_seigot_main_20230816_task01.patch	-1	-1	-1	false	false	false	false	false	false	false
+20230815100605_seigot_main_20230816_task01.patch	33.6353	31.9535	3.40003	false	false	true	false	false	true	false
+20230815101329_seigot_main_20230816_task01.patch	-1	-1	-1	false	false	false	false	false	false	false
+20230815102052_seigot_main_20230816_task01.patch	-1	-1	-1	false	false	false	false	false	false	false
+20230815102816_seigot_main_20230816_task01.patch	-1	-1	-1	false	false	false	false	false	false	false
+20230815103539_seigot_main_20230816_task01.patch	-1	-1	-1	false	false	false	false	false	false	false
