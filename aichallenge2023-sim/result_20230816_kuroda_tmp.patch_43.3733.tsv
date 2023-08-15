@@ -1,0 +1,8 @@
+Player	rawDistanceSocre	distanceScore	task3Duration	isOutsideLane	isTimeout	hasCollided	hasExceededSpeedLimit	hasFinishedTask1	hasFinishedTask2	hasFinishedTask3
+20230815105543_seigot_main_20230816_kuroda_tmp.patch	43.3733	43.3733	12.7999	false	false	true	false	true	true	false
+20230815110125_seigot_main_20230816_kuroda_tmp.patch	33.4564	31.7835	3.2	false	false	true	false	false	true	false
+20230815110708_seigot_main_20230816_kuroda_tmp.patch	53.2079	53.2079	22.4003	false	false	true	false	true	true	false
+20230815111250_seigot_main_20230816_kuroda_tmp.patch	42.9567	40.8089	12.5999	false	false	true	false	false	true	false
+20230815111833_seigot_main_20230816_kuroda_tmp.patch	43.085	40.9308	12.5999	false	false	true	false	false	true	false
+20230815112415_seigot_main_20230816_kuroda_tmp.patch	33.5782	31.8993	3.19993	false	false	true	false	false	true	false
+20230815112958_seigot_main_20230816_kuroda_tmp.patch	43.0233	43.0233	12.5999	false	false	true	false	true	true	false
