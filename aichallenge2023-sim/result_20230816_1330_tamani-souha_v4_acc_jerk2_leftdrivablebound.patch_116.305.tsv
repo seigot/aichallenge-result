@@ -1,0 +1,8 @@
+Player	rawDistanceSocre	distanceScore	task3Duration	isOutsideLane	isTimeout	hasCollided	hasExceededSpeedLimit	hasFinishedTask1	hasFinishedTask2	hasFinishedTask3
+20230816092413_seigot_main_20230816_1330_tamani-souha_v4_acc_jerk2_leftdrivablebound.patch	116.305	110.49	68.8002	true	false	false	false	false	true	false
+20230816092956_seigot_main_20230816_1330_tamani-souha_v4_acc_jerk2_leftdrivablebound.patch	53.1278	50.4714	18.9998	false	false	true	false	false	true	false
+20230816093539_seigot_main_20230816_1330_tamani-souha_v4_acc_jerk2_leftdrivablebound.patch	43.208	41.0476	21.9999	false	false	true	false	false	true	false
+20230816094121_seigot_main_20230816_1330_tamani-souha_v4_acc_jerk2_leftdrivablebound.patch	116.386	110.567	64.4028	true	false	false	false	false	true	false
+20230816094704_seigot_main_20230816_1330_tamani-souha_v4_acc_jerk2_leftdrivablebound.patch	43.1707	41.0122	17.799	false	false	true	false	false	true	false
+20230816095246_seigot_main_20230816_1330_tamani-souha_v4_acc_jerk2_leftdrivablebound.patch	116.176	110.368	69.1999	true	false	false	false	false	true	false
+20230816100010_seigot_main_20230816_1330_tamani-souha_v4_acc_jerk2_leftdrivablebound.patch	-1	-1	-1	false	false	false	false	false	false	false
