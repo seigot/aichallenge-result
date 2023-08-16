@@ -1,0 +1,8 @@
+Player	rawDistanceSocre	distanceScore	task3Duration	isOutsideLane	isTimeout	hasCollided	hasExceededSpeedLimit	hasFinishedTask1	hasFinishedTask2	hasFinishedTask3
+20230816061953_seigot_main_20230816_task02_2+envelopebuffer0.8+forwardpathlength20.0+road_sholder_safty_margin0+turnsignal1.0+avoidancetuning+behaviorplannertuning.patch	-1	-1	-1	false	false	false	false	false	false	false
+20230816062717_seigot_main_20230816_task02_2+envelopebuffer0.8+forwardpathlength20.0+road_sholder_safty_margin0+turnsignal1.0+avoidancetuning+behaviorplannertuning.patch	-1	-1	-1	false	false	false	false	false	false	false
+20230816063441_seigot_main_20230816_task02_2+envelopebuffer0.8+forwardpathlength20.0+road_sholder_safty_margin0+turnsignal1.0+avoidancetuning+behaviorplannertuning.patch	-1	-1	-1	false	false	false	false	false	false	false
+20230816064023_seigot_main_20230816_task02_2+envelopebuffer0.8+forwardpathlength20.0+road_sholder_safty_margin0+turnsignal1.0+avoidancetuning+behaviorplannertuning.patch	118.205	112.294	66.1999	false	false	true	false	false	true	false
+20230816064746_seigot_main_20230816_task02_2+envelopebuffer0.8+forwardpathlength20.0+road_sholder_safty_margin0+turnsignal1.0+avoidancetuning+behaviorplannertuning.patch	-1	-1	-1	false	false	false	false	false	false	false
+20230816065329_seigot_main_20230816_task02_2+envelopebuffer0.8+forwardpathlength20.0+road_sholder_safty_margin0+turnsignal1.0+avoidancetuning+behaviorplannertuning.patch	116.376	110.557	66.7999	true	false	false	false	false	true	false
+20230816065911_seigot_main_20230816_task02_2+envelopebuffer0.8+forwardpathlength20.0+road_sholder_safty_margin0+turnsignal1.0+avoidancetuning+behaviorplannertuning.patch	43.2632	41.1	12.4001	false	false	true	false	false	true	false
