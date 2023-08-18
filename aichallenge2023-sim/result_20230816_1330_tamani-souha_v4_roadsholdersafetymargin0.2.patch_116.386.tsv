@@ -1,0 +1,8 @@
+Player	rawDistanceSocre	distanceScore	task3Duration	isOutsideLane	isTimeout	hasCollided	hasExceededSpeedLimit	hasFinishedTask1	hasFinishedTask2	hasFinishedTask3
+20230818033836_seigot_main_20230816_1330_tamani-souha_v4_roadsholdersafetymargin0.2.patch	116.348	110.531	65.9999	true	false	false	false	false	true	false
+20230818034419_seigot_main_20230816_1330_tamani-souha_v4_roadsholdersafetymargin0.2.patch	116.386	110.567	70.2005	true	false	false	false	false	true	false
+20230818035142_seigot_main_20230816_1330_tamani-souha_v4_roadsholdersafetymargin0.2.patch	-1	-1	-1	false	false	false	false	false	false	false
+20230818035906_seigot_main_20230816_1330_tamani-souha_v4_roadsholdersafetymargin0.2.patch	-1	-1	-1	false	false	false	false	false	false	false
+20230818040449_seigot_main_20230816_1330_tamani-souha_v4_roadsholdersafetymargin0.2.patch	116.467	110.643	77.9995	true	false	false	false	false	true	false
+20230818041213_seigot_main_20230816_1330_tamani-souha_v4_roadsholdersafetymargin0.2.patch	-1	-1	-1	false	false	false	false	false	false	false
+20230818041937_seigot_main_20230816_1330_tamani-souha_v4_roadsholdersafetymargin0.2.patch	-1	-1	-1	false	false	false	false	false	false	false
