@@ -1,0 +1,416 @@
+diff --git a/docker/aichallenge/aichallenge_ws/src/aichallenge_submit/autoware_launch/autoware_launch/config/planning/scenario_planning/common/common.param.yaml b/docker/aichallenge/aichallenge_ws/src/aichallenge_submit/autoware_launch/autoware_launch/config/planning/scenario_planning/common/common.param.yaml
+index 6bb130e..789a813 100644
+--- a/docker/aichallenge/aichallenge_ws/src/aichallenge_submit/autoware_launch/autoware_launch/config/planning/scenario_planning/common/common.param.yaml
++++ b/docker/aichallenge/aichallenge_ws/src/aichallenge_submit/autoware_launch/autoware_launch/config/planning/scenario_planning/common/common.param.yaml
+@@ -3,13 +3,13 @@
+     # constraints param for normal driving
+     normal:
+       min_acc: -1.0         # min deceleration [m/ss]
+-      max_acc: 1.0          # max acceleration [m/ss]
++      max_acc: 10.0          # max acceleration [m/ss]
+       min_jerk: -1.0        # min jerk [m/sss]
+-      max_jerk: 1.0         # max jerk [m/sss]
++      max_jerk: 10.0         # max jerk [m/sss]
+ 
+     # constraints to be observed
+     limit:
+       min_acc: -2.5         # min deceleration limit [m/ss]
+-      max_acc: 1.0          # max acceleration limit [m/ss]
++      max_acc: 10.0          # max acceleration limit [m/ss]
+       min_jerk: -1.5        # min jerk limit [m/sss]
+-      max_jerk: 1.5         # max jerk limit [m/sss]
++      max_jerk: 10.5         # max jerk limit [m/sss]
+diff --git a/docker/aichallenge/aichallenge_ws/src/aichallenge_submit/autoware_launch/autoware_launch/config/planning/scenario_planning/common/motion_velocity_smoother/Analytical.param.yaml b/docker/aichallenge/aichallenge_ws/src/aichallenge_submit/autoware_launch/autoware_launch/config/planning/scenario_planning/common/motion_velocity_smoother/Analytical.param.yaml
+index 329714e..bd03dda 100644
+--- a/docker/aichallenge/aichallenge_ws/src/aichallenge_submit/autoware_launch/autoware_launch/config/planning/scenario_planning/common/motion_velocity_smoother/Analytical.param.yaml
++++ b/docker/aichallenge/aichallenge_ws/src/aichallenge_submit/autoware_launch/autoware_launch/config/planning/scenario_planning/common/motion_velocity_smoother/Analytical.param.yaml
+@@ -10,9 +10,9 @@
+       constant_velocity_dist_threshold: 2.0
+ 
+     forward:
+-      max_acc: 1.0
++      max_acc: 10.0
+       min_acc: -1.0
+-      max_jerk: 0.3
++      max_jerk: 10.3
+       min_jerk: -0.3
+       kp: 0.3
+ 
+diff --git a/docker/aichallenge/aichallenge_ws/src/aichallenge_submit/autoware_launch/autoware_launch/config/planning/scenario_planning/common/motion_velocity_smoother/JerkFiltered.param.yaml b/docker/aichallenge/aichallenge_ws/src/aichallenge_submit/autoware_launch/autoware_launch/config/planning/scenario_planning/common/motion_velocity_smoother/JerkFiltered.param.yaml
+index a6906b7..3fa1950 100644
+--- a/docker/aichallenge/aichallenge_ws/src/aichallenge_submit/autoware_launch/autoware_launch/config/planning/scenario_planning/common/motion_velocity_smoother/JerkFiltered.param.yaml
++++ b/docker/aichallenge/aichallenge_ws/src/aichallenge_submit/autoware_launch/autoware_launch/config/planning/scenario_planning/common/motion_velocity_smoother/JerkFiltered.param.yaml
+@@ -1,6 +1,6 @@
+ /**:
+   ros__parameters:
+-    jerk_weight: 0.1         # weight for "smoothness" cost for jerk
++    jerk_weight: 0.1 # 0.1         # weight for "smoothness" cost for jerk
+     over_v_weight: 10000.0   # weight for "over speed limit" cost
+     over_a_weight: 500.0     # weight for "over accel limit" cost
+     over_j_weight: 200.0     # weight for "over jerk limit" cost
+diff --git a/docker/aichallenge/aichallenge_ws/src/aichallenge_submit/autoware_launch/autoware_launch/config/planning/scenario_planning/common/motion_velocity_smoother/motion_velocity_smoother.param.yaml b/docker/aichallenge/aichallenge_ws/src/aichallenge_submit/autoware_launch/autoware_launch/config/planning/scenario_planning/common/motion_velocity_smoother/motion_velocity_smoother.param.yaml
+index e600334..5234778 100644
+--- a/docker/aichallenge/aichallenge_ws/src/aichallenge_submit/autoware_launch/autoware_launch/config/planning/scenario_planning/common/motion_velocity_smoother/motion_velocity_smoother.param.yaml
++++ b/docker/aichallenge/aichallenge_ws/src/aichallenge_submit/autoware_launch/autoware_launch/config/planning/scenario_planning/common/motion_velocity_smoother/motion_velocity_smoother.param.yaml
+@@ -8,11 +8,11 @@
+     margin_to_insert_external_velocity_limit: 0.3   #  margin distance to insert external velocity limit [m]
+ 
+     # curve parameters
+-    max_lateral_accel: 1.0             # max lateral acceleration limit [m/ss]
+-    min_curve_velocity: 2.74            # min velocity at lateral acceleration limit and steering angle rate limit [m/s]
+-    decel_distance_before_curve: 3.5   # slow speed distance before a curve for lateral acceleration limit
++    max_lateral_accel: 3.0   #1.0             # max lateral acceleration limit [m/ss]
++    min_curve_velocity: 0.1  #2.74            # min velocity at lateral acceleration limit and steering angle rate limit [m/s]
++    decel_distance_before_curve: 5.0 #3.5   # slow speed distance before a curve for lateral acceleration limit
+     decel_distance_after_curve: 2.0    # slow speed distance after a curve for lateral acceleration limit
+-    min_decel_for_lateral_acc_lim_filter: -2.5  # deceleration limit applied in the lateral acceleration filter to avoid sudden braking [m/ss]
++    min_decel_for_lateral_acc_lim_filter: -10.5 #-2.5  # deceleration limit applied in the lateral acceleration filter to avoid sudden braking [m/ss]
+ 
+     # engage & replan parameters
+     replan_vel_deviation: 5.53         # velocity deviation to replan initial velocity [m/s]
+@@ -22,8 +22,8 @@
+     stop_dist_to_prohibit_engage: 0.5  # if the stop point is in this distance, the speed is set to 0 not to move the vehicle [m]
+ 
+     # stop velocity
+-    stopping_velocity: 2.778  # change target velocity to this value before v=0 point [m/s]
+-    stopping_distance: 0.0    # distance for the stopping_velocity [m]. 0 means the stopping velocity is not applied.
++    stopping_velocity: 2.778 # 2.778  # change target velocity to this value before v=0 point [m/s]
++    stopping_distance: 0.0 # 0.0    # distance for the stopping_velocity [m]. 0 means the stopping velocity is not applied.
+ 
+     # path extraction parameters
+     extract_ahead_dist: 200.0         # forward trajectory distance used for planning [m]
+diff --git a/docker/aichallenge/aichallenge_ws/src/aichallenge_submit/autoware_launch/autoware_launch/config/planning/scenario_planning/lane_driving/behavior_planning/behavior_path_planner/avoidance/avoidance.param.yaml b/docker/aichallenge/aichallenge_ws/src/aichallenge_submit/autoware_launch/autoware_launch/config/planning/scenario_planning/lane_driving/behavior_planning/behavior_path_planner/avoidance/avoidance.param.yaml
+index c14f59f..7c24d20 100644
+--- a/docker/aichallenge/aichallenge_ws/src/aichallenge_submit/autoware_launch/autoware_launch/config/planning/scenario_planning/lane_driving/behavior_planning/behavior_path_planner/avoidance/avoidance.param.yaml
++++ b/docker/aichallenge/aichallenge_ws/src/aichallenge_submit/autoware_launch/autoware_launch/config/planning/scenario_planning/lane_driving/behavior_planning/behavior_path_planner/avoidance/avoidance.param.yaml
+@@ -2,26 +2,26 @@
+ /**:
+   ros__parameters:
+     avoidance:
+-      resample_interval_for_planning: 0.3               # [m]
+-      resample_interval_for_output: 4.0                 # [m]
++      resample_interval_for_planning: 0.05              # [m]
++      resample_interval_for_output: 0.1                 # [m]
+       detection_area_right_expand_dist: 0.0             # [m]
+-      detection_area_left_expand_dist: 1.0              # [m]
++      detection_area_left_expand_dist: 0.0              # [m]
+       drivable_area_right_bound_offset: 0.0             # [m]
+       drivable_area_left_bound_offset: 0.0              # [m]
+-      object_envelope_buffer: 0.3                       # [m]
++      object_envelope_buffer: 0.45                      # [m]
+ 
+       # avoidance module common setting
+       enable_bound_clipping: false
+       enable_avoidance_over_same_direction: true
+       enable_avoidance_over_opposite_direction: true
+-      enable_update_path_when_object_is_gone: false
+-      enable_force_avoidance_for_stopped_vehicle: false
++      enable_update_path_when_object_is_gone: true
++      enable_force_avoidance_for_stopped_vehicle: true
+       enable_safety_check: false
+       enable_yield_maneuver: false
+       disable_path_update: false
+ 
+       # for debug
+-      publish_debug_marker: false
++      publish_debug_marker: true
+       print_debug_info: false
+ 
+       # avoidance is performed for the object type with true
+@@ -30,10 +30,10 @@
+         truck: true
+         bus: true
+         trailer: true
+-        unknown: false
+-        bicycle: false
+-        motorcycle: false
+-        pedestrian: false
++        unknown: true
++        bicycle: true #false
++        motorcycle: true #false
++        pedestrian: true #false
+ 
+       # For target object filtering
+       target_filtering:
+@@ -42,14 +42,14 @@
+         threshold_time_object_is_moving: 1.0            # [s]
+         threshold_time_force_avoidance_for_stopped_vehicle: 10.0 # [s]
+         # detection range
+-        object_check_force_avoidance_clearance: 30.0    # [m]
+-        object_check_forward_distance: 150.0            # [m]
+-        object_check_backward_distance: 2.0             # [m]
++        object_check_force_avoidance_clearance: 1.0    # [m]
++        object_check_forward_distance: 10.0            # [m]
++        object_check_backward_distance: 0.0             # [m]
+         object_check_goal_distance: 20.0                # [m]
+         # filtering parking objects
+-        threshold_distance_object_is_on_center: 1.0     # [m]
+-        object_check_shiftable_ratio: 0.6               # [-]
+-        object_check_min_road_shoulder_width: 0.5       # [m]
++        threshold_distance_object_is_on_center: 0.0     # [m]
++        object_check_shiftable_ratio: 0.0               # [-]
++        object_check_min_road_shoulder_width: 0.0       # [m]
+         # lost object compensation
+         object_last_seen_threshold: 2.0
+ 
+@@ -65,21 +65,21 @@
+       avoidance:
+         # avoidance lateral parameters
+         lateral:
+-          lateral_collision_margin: 1.0                 # [m]
+-          lateral_collision_safety_buffer: 0.7          # [m]
++          lateral_collision_margin: 0.1                 # [m]
++          lateral_collision_safety_buffer: 0.12          # [m]
+           lateral_passable_safety_buffer: 0.0           # [m]
+-          road_shoulder_safety_margin: 0.3              # [m]
++          road_shoulder_safety_margin: 0.0              # [m]
+           avoidance_execution_lateral_threshold: 0.499
+           max_right_shift_length: 5.0
+           max_left_shift_length: 5.0
+         # avoidance distance parameters
+         longitudinal:
+-          prepare_time: 2.0                             # [s]
++          prepare_time: 0.0                             # [s]
+           longitudinal_collision_safety_buffer: 0.0     # [m]
+-          min_prepare_distance: 1.0                     # [m]
+-          min_avoidance_distance: 10.0                  # [m]
+-          min_nominal_avoidance_speed: 7.0              # [m/s]
+-          min_sharp_avoidance_speed: 1.0                # [m/s]
++          min_prepare_distance: 0.0                     # [m]
++          min_avoidance_distance: 0.0                  # [m]
++          min_nominal_avoidance_speed: 0.5              # [m/s]
++          min_sharp_avoidance_speed: 0.5                # [m/s]
+ 
+       # For yield maneuver
+       yield:
+diff --git a/docker/aichallenge/aichallenge_ws/src/aichallenge_submit/autoware_launch/autoware_launch/config/planning/scenario_planning/lane_driving/behavior_planning/behavior_path_planner/behavior_path_planner.param.yaml b/docker/aichallenge/aichallenge_ws/src/aichallenge_submit/autoware_launch/autoware_launch/config/planning/scenario_planning/lane_driving/behavior_planning/behavior_path_planner/behavior_path_planner.param.yaml
+index 46b176b..68b8345 100644
+--- a/docker/aichallenge/aichallenge_ws/src/aichallenge_submit/autoware_launch/autoware_launch/config/planning/scenario_planning/lane_driving/behavior_planning/behavior_path_planner/behavior_path_planner.param.yaml
++++ b/docker/aichallenge/aichallenge_ws/src/aichallenge_submit/autoware_launch/autoware_launch/config/planning/scenario_planning/lane_driving/behavior_planning/behavior_path_planner/behavior_path_planner.param.yaml
+@@ -3,23 +3,23 @@
+     verbose: false
+ 
+     planning_hz: 10.0
+-    backward_path_length: 5.0
+-    forward_path_length: 300.0
++    backward_path_length: 0.0
++    forward_path_length: 20.0
+     backward_length_buffer_for_end_of_pull_over: 5.0
+     backward_length_buffer_for_end_of_pull_out: 5.0
+     minimum_pull_over_length: 16.0
+ 
+-    refine_goal_search_radius_range: 7.5
++    refine_goal_search_radius_range: 3.5
+ 
+     # parameters for turn signal decider
+     turn_signal_intersection_search_distance: 30.0
+     turn_signal_intersection_angle_threshold_deg: 15.0
+-    turn_signal_minimum_search_distance: 10.0
++    turn_signal_minimum_search_distance: 1.0
+     turn_signal_search_time: 3.0
+     turn_signal_shift_length_threshold: 0.3
+     turn_signal_on_swerving: true
+ 
+-    path_interval: 2.0
++    path_interval: 0.1
+ 
+     visualize_maximum_drivable_area: true
+ 
+diff --git a/docker/aichallenge/aichallenge_ws/src/aichallenge_submit/autoware_launch/autoware_launch/config/planning/scenario_planning/lane_driving/behavior_planning/behavior_path_planner/drivable_area_expansion.param.yaml b/docker/aichallenge/aichallenge_ws/src/aichallenge_submit/autoware_launch/autoware_launch/config/planning/scenario_planning/lane_driving/behavior_planning/behavior_path_planner/drivable_area_expansion.param.yaml
+index 902a93c..c192dbf 100644
+--- a/docker/aichallenge/aichallenge_ws/src/aichallenge_submit/autoware_launch/autoware_launch/config/planning/scenario_planning/lane_driving/behavior_planning/behavior_path_planner/drivable_area_expansion.param.yaml
++++ b/docker/aichallenge/aichallenge_ws/src/aichallenge_submit/autoware_launch/autoware_launch/config/planning/scenario_planning/lane_driving/behavior_planning/behavior_path_planner/drivable_area_expansion.param.yaml
+@@ -3,27 +3,27 @@
+     # Static expansion
+     avoidance:
+       drivable_area_right_bound_offset: 0.0
+-      drivable_area_left_bound_offset: 0.0
++      drivable_area_left_bound_offset: 1.0
+       drivable_area_types_to_skip: [road_border]
+     lane_change:
+-      drivable_area_right_bound_offset: 0.0
+-      drivable_area_left_bound_offset: 0.0
++      drivable_area_right_bound_offset: -0.5
++      drivable_area_left_bound_offset: 1.0
+       drivable_area_types_to_skip: [road_border]
+     lane_following:
+-      drivable_area_right_bound_offset: 0.0
+-      drivable_area_left_bound_offset: 0.0
++      drivable_area_right_bound_offset: -0.5
++      drivable_area_left_bound_offset: 1.0
+       drivable_area_types_to_skip: [road_border]
+     pull_out:
+-      drivable_area_right_bound_offset: 0.0
+-      drivable_area_left_bound_offset: 0.0
++      drivable_area_right_bound_offset: -0.5
++      drivable_area_left_bound_offset: 1.0
+       drivable_area_types_to_skip: [road_border]
+     pull_over:
+-      drivable_area_right_bound_offset: 0.0
+-      drivable_area_left_bound_offset: 0.0
++      drivable_area_right_bound_offset: -0.5
++      drivable_area_left_bound_offset: 1.0
+       drivable_area_types_to_skip: [road_border]
+     side_shift:
+-      drivable_area_right_bound_offset: 0.0
+-      drivable_area_left_bound_offset: 0.0
++      drivable_area_right_bound_offset: -0.5
++      drivable_area_left_bound_offset: 1.0
+       drivable_area_types_to_skip: [road_border]
+ 
+     # Dynamic expansion by projecting the ego footprint along the path
+diff --git a/docker/aichallenge/aichallenge_ws/src/aichallenge_submit/autoware_launch/autoware_launch/config/planning/scenario_planning/lane_driving/behavior_planning/behavior_path_planner/lane_following/lane_following.param.yaml b/docker/aichallenge/aichallenge_ws/src/aichallenge_submit/autoware_launch/autoware_launch/config/planning/scenario_planning/lane_driving/behavior_planning/behavior_path_planner/lane_following/lane_following.param.yaml
+index b6a9574..ea264f4 100644
+--- a/docker/aichallenge/aichallenge_ws/src/aichallenge_submit/autoware_launch/autoware_launch/config/planning/scenario_planning/lane_driving/behavior_planning/behavior_path_planner/lane_following/lane_following.param.yaml
++++ b/docker/aichallenge/aichallenge_ws/src/aichallenge_submit/autoware_launch/autoware_launch/config/planning/scenario_planning/lane_driving/behavior_planning/behavior_path_planner/lane_following/lane_following.param.yaml
+@@ -1,4 +1,4 @@
+ /**:
+   ros__parameters:
+     lane_following:
+-      lane_change_prepare_duration: 2.0
++      lane_change_prepare_duration: 0.0
+diff --git a/docker/aichallenge/aichallenge_ws/src/aichallenge_submit/autoware_launch/autoware_launch/config/planning/scenario_planning/lane_driving/motion_planning/obstacle_avoidance_planner/obstacle_avoidance_planner.param.yaml b/docker/aichallenge/aichallenge_ws/src/aichallenge_submit/autoware_launch/autoware_launch/config/planning/scenario_planning/lane_driving/motion_planning/obstacle_avoidance_planner/obstacle_avoidance_planner.param.yaml
+index daa8e02..0c7a065 100644
+--- a/docker/aichallenge/aichallenge_ws/src/aichallenge_submit/autoware_launch/autoware_launch/config/planning/scenario_planning/lane_driving/motion_planning/obstacle_avoidance_planner/obstacle_avoidance_planner.param.yaml
++++ b/docker/aichallenge/aichallenge_ws/src/aichallenge_submit/autoware_launch/autoware_launch/config/planning/scenario_planning/lane_driving/motion_planning/obstacle_avoidance_planner/obstacle_avoidance_planner.param.yaml
+@@ -89,16 +89,16 @@
+         soft_collision_free_weight: 1000.0        # soft weight for lateral error around the middle point
+ 
+         # tracking error
+-        lat_error_weight: 1.0       # weight for lateral error
+-        yaw_error_weight: 0.0       # weight for yaw error
+-        yaw_error_rate_weight: 0.0  # weight for yaw error rate
+-        steer_input_weight: 1.0     # weight for steering input
+-        steer_rate_weight: 1.0      # weight for steering rate
++        lat_error_weight: 10.0       # weight for lateral error
++        yaw_error_weight: 10.0       # weight for yaw error
++        yaw_error_rate_weight: 10.0  # weight for yaw error rate
++        steer_input_weight: 0.0     # weight for steering input
++        steer_rate_weight: 0.0      # weight for steering rate
+ 
+         terminal_lat_error_weight: 100.0  # weight for lateral error at terminal point
+-        terminal_yaw_error_weight: 100.0  # weight for yaw error at terminal point
++        terminal_yaw_error_weight: 0.0  # 100.0 # weight for yaw error at terminal point
+         goal_lat_error_weight: 1000.0     # weight for lateral error at path end point
+-        goal_yaw_error_weight: 1000.0     # weight for yaw error at path end point
++        goal_yaw_error_weight: 0.0     # 1000.0 # weight for yaw error at path end point
+ 
+       # avoidance
+       avoidance:
+@@ -108,9 +108,9 @@
+         avoidance_cost_decrease_rate: 0.05 # decreased cost per point interval
+ 
+         weight:
+-          lat_error_weight: 0.0     # weight for lateral error
++          lat_error_weight: 10.0     # weight for lateral error
+           yaw_error_weight: 10.0    # weight for yaw error
+-          steer_input_weight: 100.0 # weight for yaw error
++          steer_input_weight: 0.0 # weight for yaw error
+ 
+       # collision free constraint for optimization
+       collision_free_constraints:
+diff --git a/docker/aichallenge/aichallenge_ws/src/aichallenge_submit/autoware_launch/autoware_launch/config/planning/scenario_planning/lane_driving/motion_planning/obstacle_cruise_planner/obstacle_cruise_planner.param.yaml b/docker/aichallenge/aichallenge_ws/src/aichallenge_submit/autoware_launch/autoware_launch/config/planning/scenario_planning/lane_driving/motion_planning/obstacle_cruise_planner/obstacle_cruise_planner.param.yaml
+index dfc2b2e..fbe598b 100644
+--- a/docker/aichallenge/aichallenge_ws/src/aichallenge_submit/autoware_launch/autoware_launch/config/planning/scenario_planning/lane_driving/motion_planning/obstacle_cruise_planner/obstacle_cruise_planner.param.yaml
++++ b/docker/aichallenge/aichallenge_ws/src/aichallenge_submit/autoware_launch/autoware_launch/config/planning/scenario_planning/lane_driving/motion_planning/obstacle_cruise_planner/obstacle_cruise_planner.param.yaml
+@@ -3,7 +3,7 @@
+     common:
+       planning_algorithm: "pid_base" # currently supported algorithm is "pid_base"
+ 
+-      is_showing_debug_info: false
++      is_showing_debug_info: true
+       disable_stop_planning: false # true
+ 
+       # longitudinal info
+@@ -18,8 +18,8 @@
+       nearest_dist_deviation_threshold: 3.0 # [m] for finding nearest index
+       nearest_yaw_deviation_threshold: 1.57 # [rad] for finding nearest index
+       min_behavior_stop_margin: 3.0 # [m]
+-      obstacle_velocity_threshold_from_cruise_to_stop : 3.0 # stop planning is executed to the obstacle whose velocity is less than this value [m/s]
+-      obstacle_velocity_threshold_from_stop_to_cruise : 3.5 # stop planning is executed to the obstacle whose velocity is less than this value [m/s]
++      obstacle_velocity_threshold_from_cruise_to_stop : 4.0 # stop planning is executed to the obstacle whose velocity is less than this value [m/s]
++      obstacle_velocity_threshold_from_stop_to_cruise : 4.5 # stop planning is executed to the obstacle whose velocity is less than this value [m/s]
+ 
+       cruise_obstacle_type:
+         unknown: true
+@@ -29,7 +29,7 @@
+         trailer: true
+         motorcycle: true
+         bicycle: true
+-        pedestrian: false
++        pedestrian: true
+ 
+       stop_obstacle_type:
+         unknown: true
+@@ -65,7 +65,7 @@
+       stop_obstacle_hold_time_threshold : 1.0 # maximum time for holding closest stop obstacle
+ 
+       ignored_outside_obstacle_type:
+-        unknown: true
++        unknown: false
+         car: false
+         truck: false
+         bus: false
+diff --git a/docker/aichallenge/aichallenge_ws/src/aichallenge_submit/autoware_launch/autoware_launch/config/planning/scenario_planning/lane_driving/motion_planning/obstacle_stop_planner/obstacle_stop_planner.param.yaml b/docker/aichallenge/aichallenge_ws/src/aichallenge_submit/autoware_launch/autoware_launch/config/planning/scenario_planning/lane_driving/motion_planning/obstacle_stop_planner/obstacle_stop_planner.param.yaml
+index a68a760..970ff68 100644
+--- a/docker/aichallenge/aichallenge_ws/src/aichallenge_submit/autoware_launch/autoware_launch/config/planning/scenario_planning/lane_driving/motion_planning/obstacle_stop_planner/obstacle_stop_planner.param.yaml
++++ b/docker/aichallenge/aichallenge_ws/src/aichallenge_submit/autoware_launch/autoware_launch/config/planning/scenario_planning/lane_driving/motion_planning/obstacle_stop_planner/obstacle_stop_planner.param.yaml
+@@ -15,14 +15,14 @@
+     stop_planner:
+       # params for stop position
+       stop_position:
+-        max_longitudinal_margin: 5.0             # stop margin distance from obstacle on the path [m]
++        max_longitudinal_margin: 5.75             # stop margin distance from obstacle on the path [m]
+         max_longitudinal_margin_behind_goal: 3.0 # stop margin distance from obstacle behind goal on the path [m]
+-        min_longitudinal_margin: 5.0             # stop margin distance when any other stop point is inserted in stop margin [m]
+-        hold_stop_margin_distance: 0.0           # the ego keeps stopping if the ego is in this margin [m]
++        min_longitudinal_margin: 5.75             # stop margin distance when any other stop point is inserted in stop margin [m]
++        hold_stop_margin_distance: 5.75           # the ego keeps stopping if the ego is in this margin [m]
+ 
+       # params for detection area
+       detection_area:
+-        lateral_margin: 0.0                  # margin [m]
++        lateral_margin: 0.2                 # margin [m]
+         vehicle_lateral_margin: 0.0          # margin of vehicle footprint [m]
+         pedestrian_lateral_margin: 0.0       # margin of pedestrian footprint [m]
+         unknown_lateral_margin: 0.0          # margin of unknown footprint [m]
+diff --git a/docker/aichallenge/aichallenge_ws/src/aichallenge_submit/autoware_launch/autoware_launch/rviz/autoware.rviz b/docker/aichallenge/aichallenge_ws/src/aichallenge_submit/autoware_launch/autoware_launch/rviz/autoware.rviz
+index cac9bb8..d125a73 100644
+--- a/docker/aichallenge/aichallenge_ws/src/aichallenge_submit/autoware_launch/autoware_launch/rviz/autoware.rviz
++++ b/docker/aichallenge/aichallenge_ws/src/aichallenge_submit/autoware_launch/autoware_launch/rviz/autoware.rviz
+@@ -1327,7 +1327,7 @@ Visualization Manager:
+                     - Class: rviz_common/Group
+                       Displays:
+                         - Class: rviz_default_plugins/MarkerArray
+-                          Enabled: false
++                          Enabled: true
+                           Name: Arrow
+                           Namespaces:
+                             {}
+@@ -1459,7 +1459,7 @@ Visualization Manager:
+                             Value: /planning/scenario_planning/lane_driving/behavior_planning/behavior_velocity_planner/debug/run_out
+                           Value: false
+                         - Class: rviz_default_plugins/MarkerArray
+-                          Enabled: false
++                          Enabled: true
+                           Name: Avoidance
+                           Namespaces:
+                             {}
+@@ -1542,7 +1542,7 @@ Visualization Manager:
+                             Reliability Policy: Reliable
+                             Value: /planning/scenario_planning/lane_driving/behavior_planning/behavior_velocity_planner/debug/speed_bump
+                           Value: false
+-                      Enabled: false
++                      Enabled: true
+                       Name: DebugMarker
+                   Enabled: true
+                   Name: BehaviorPlanning
+@@ -1721,7 +1721,7 @@ Visualization Manager:
+                           Enabled: false
+                           Name: ObstacleCruise
+                         - Class: rviz_default_plugins/MarkerArray
+-                          Enabled: false
++                          Enabled: true
+                           Name: ObstacleAvoidance
+                           Namespaces:
+                             {}
