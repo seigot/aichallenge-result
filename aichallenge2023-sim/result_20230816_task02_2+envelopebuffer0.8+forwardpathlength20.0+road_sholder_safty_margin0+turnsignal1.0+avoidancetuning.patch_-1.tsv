@@ -1,0 +1,8 @@
+Player	rawDistanceSocre	distanceScore	task3Duration	isOutsideLane	isTimeout	hasCollided	hasExceededSpeedLimit	hasFinishedTask1	hasFinishedTask2	hasFinishedTask3
+20230819045318_seigot_main_20230816_task02_2+envelopebuffer0.8+forwardpathlength20.0+road_sholder_safty_margin0+turnsignal1.0+avoidancetuning.patch	-1	-1	-1	false	false	false	false	false	false	false
+20230819050041_seigot_main_20230816_task02_2+envelopebuffer0.8+forwardpathlength20.0+road_sholder_safty_margin0+turnsignal1.0+avoidancetuning.patch	-1	-1	-1	false	false	false	false	false	false	false
+20230819050624_seigot_main_20230816_task02_2+envelopebuffer0.8+forwardpathlength20.0+road_sholder_safty_margin0+turnsignal1.0+avoidancetuning.patch	116.511	110.685	67.0007	true	false	false	false	false	true	false
+20230819051348_seigot_main_20230816_task02_2+envelopebuffer0.8+forwardpathlength20.0+road_sholder_safty_margin0+turnsignal1.0+avoidancetuning.patch	-1	-1	-1	false	false	false	false	false	false	false
+20230819052112_seigot_main_20230816_task02_2+envelopebuffer0.8+forwardpathlength20.0+road_sholder_safty_margin0+turnsignal1.0+avoidancetuning.patch	-1	-1	-1	false	false	false	false	false	false	false
+20230819052835_seigot_main_20230816_task02_2+envelopebuffer0.8+forwardpathlength20.0+road_sholder_safty_margin0+turnsignal1.0+avoidancetuning.patch	-1	-1	-1	false	false	false	false	false	false	false
+20230819053559_seigot_main_20230816_task02_2+envelopebuffer0.8+forwardpathlength20.0+road_sholder_safty_margin0+turnsignal1.0+avoidancetuning.patch	-1	-1	-1	false	false	false	false	false	false	false
