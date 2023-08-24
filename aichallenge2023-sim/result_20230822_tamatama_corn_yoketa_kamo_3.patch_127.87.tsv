@@ -1,0 +1,8 @@
+Player	rawDistanceSocre	distanceScore	task3Duration	isOutsideLane	isTimeout	hasCollided	hasExceededSpeedLimit	hasFinishedTask1	hasFinishedTask2	hasFinishedTask3
+20230824051000_seigot_main_20230822_tamatama_corn_yoketa_kamo_3.patch	89.0103	89.0103	43.5997	true	false	false	false	true	true	false
+20230824051842_seigot_main_20230822_tamatama_corn_yoketa_kamo_3.patch	89.0211	89.0211	46.4	true	false	false	false	true	true	false
+20230824052725_seigot_main_20230822_tamatama_corn_yoketa_kamo_3.patch	47.3797	47.3797	271.4	false	true	false	false	true	true	false
+20230824053607_seigot_main_20230822_tamatama_corn_yoketa_kamo_3.patch	127.909	127.909	270.8	false	true	false	false	true	true	false
+20230824054450_seigot_main_20230822_tamatama_corn_yoketa_kamo_3.patch	48.8014	48.8014	270.2	false	true	false	false	true	true	false
+20230824055332_seigot_main_20230822_tamatama_corn_yoketa_kamo_3.patch	127.87	127.87	270.4	false	true	false	false	true	true	false
+20230824060215_seigot_main_20230822_tamatama_corn_yoketa_kamo_3.patch	88.8756	88.8756	45.9959	true	false	false	false	true	true	false
