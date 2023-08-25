@@ -1,0 +1,8 @@
+Player	rawDistanceSocre	distanceScore	task3Duration	isOutsideLane	isTimeout	hasCollided	hasExceededSpeedLimit	hasFinishedTask1	hasFinishedTask2	hasFinishedTask3
+20230825113122_seigot_main_20230823_corn_yoketa_kitasuru_drivablearea_-0.10-0.65_low_curvature_laterror2.5_hearerror1.0_lat_jerk0.0_curvature0.patch	141.947	141.947	271.4	false	true	false	false	true	true	false
+20230825114004_seigot_main_20230823_corn_yoketa_kitasuru_drivablearea_-0.10-0.65_low_curvature_laterror2.5_hearerror1.0_lat_jerk0.0_curvature0.patch	37.5449	37.5449	271.2	false	true	false	false	true	true	false
+20230825114847_seigot_main_20230823_corn_yoketa_kitasuru_drivablearea_-0.10-0.65_low_curvature_laterror2.5_hearerror1.0_lat_jerk0.0_curvature0.patch	47.365	47.365	271.597	false	true	false	false	true	true	false
+20230825115729_seigot_main_20230823_corn_yoketa_kitasuru_drivablearea_-0.10-0.65_low_curvature_laterror2.5_hearerror1.0_lat_jerk0.0_curvature0.patch	132.212	132.212	83.3999	true	false	false	false	true	true	false
+20230825120612_seigot_main_20230823_corn_yoketa_kitasuru_drivablearea_-0.10-0.65_low_curvature_laterror2.5_hearerror1.0_lat_jerk0.0_curvature0.patch	27.7414	27.7414	0	false	true	false	false	true	true	false
+20230825121454_seigot_main_20230823_corn_yoketa_kitasuru_drivablearea_-0.10-0.65_low_curvature_laterror2.5_hearerror1.0_lat_jerk0.0_curvature0.patch	118.269	118.269	70.7999	false	false	true	false	true	true	false
+20230825122337_seigot_main_20230823_corn_yoketa_kitasuru_drivablearea_-0.10-0.65_low_curvature_laterror2.5_hearerror1.0_lat_jerk0.0_curvature0.patch	37.4216	37.4216	271.201	false	true	false	false	true	true	false
