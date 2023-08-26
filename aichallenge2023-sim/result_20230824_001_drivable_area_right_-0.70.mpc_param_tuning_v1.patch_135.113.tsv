@@ -1,0 +1,8 @@
+Player	rawDistanceSocre	distanceScore	task3Duration	isOutsideLane	isTimeout	hasCollided	hasExceededSpeedLimit	hasFinishedTask1	hasFinishedTask2	hasFinishedTask3
+20230827042103_seigot_main_20230824_001_drivable_area_right_-0.70.mpc_param_tuning_v1.patch	47.4789	47.4789	271.2	false	true	false	false	true	true	false
+20230827042945_seigot_main_20230824_001_drivable_area_right_-0.70.mpc_param_tuning_v1.patch	37.5953	37.5953	271.401	false	true	false	false	true	true	false
+20230827043828_seigot_main_20230824_001_drivable_area_right_-0.70.mpc_param_tuning_v1.patch	27.7519	27.7519	0	false	true	false	false	true	true	false
+20230827044711_seigot_main_20230824_001_drivable_area_right_-0.70.mpc_param_tuning_v1.patch	27.7207	27.7207	0	false	true	false	false	true	true	false
+20230827045553_seigot_main_20230824_001_drivable_area_right_-0.70.mpc_param_tuning_v1.patch	135.113	135.113	80.4056	true	false	false	false	true	true	false
+20230827050436_seigot_main_20230824_001_drivable_area_right_-0.70.mpc_param_tuning_v1.patch	27.7187	27.7187	0	false	true	false	false	true	true	false
+20230827051319_seigot_main_20230824_001_drivable_area_right_-0.70.mpc_param_tuning_v1.patch	142.193	142.193	271.6	false	true	false	false	true	true	false
