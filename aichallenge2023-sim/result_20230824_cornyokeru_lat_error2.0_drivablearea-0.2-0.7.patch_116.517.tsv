@@ -1,0 +1,8 @@
+Player	rawDistanceSocre	distanceScore	task3Duration	isOutsideLane	isTimeout	hasCollided	hasExceededSpeedLimit	hasFinishedTask1	hasFinishedTask2	hasFinishedTask3
+20230826060902_seigot_main_20230824_cornyokeru_lat_error2.0_drivablearea-0.2-0.7.patch	27.7545	27.7545	0	false	true	false	false	true	true	false
+20230826061745_seigot_main_20230824_cornyokeru_lat_error2.0_drivablearea-0.2-0.7.patch	69.9265	69.9265	271.8	false	true	false	false	true	true	false
+20230826062628_seigot_main_20230824_cornyokeru_lat_error2.0_drivablearea-0.2-0.7.patch	116.517	116.517	67.5992	true	false	false	false	true	true	false
+20230826063511_seigot_main_20230824_cornyokeru_lat_error2.0_drivablearea-0.2-0.7.patch	27.7231	27.7231	0	false	true	false	false	true	true	false
+20230826064353_seigot_main_20230824_cornyokeru_lat_error2.0_drivablearea-0.2-0.7.patch	27.708	27.708	0	false	true	false	false	true	true	false
+20230826065236_seigot_main_20230824_cornyokeru_lat_error2.0_drivablearea-0.2-0.7.patch	116.659	116.659	67.2	true	false	false	false	true	true	false
+20230826070119_seigot_main_20230824_cornyokeru_lat_error2.0_drivablearea-0.2-0.7.patch	27.7867	27.7867	0	false	true	false	false	true	true	false
