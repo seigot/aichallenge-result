@@ -1,0 +1,8 @@
+Player	rawDistanceSocre	distanceScore	task3Duration	isOutsideLane	isTimeout	hasCollided	hasExceededSpeedLimit	hasFinishedTask1	hasFinishedTask2	hasFinishedTask3
+20230828034258_seigot_main_20230824_001_stop_drivable_area_false_left_bound_offset_-0.30.patch	68.3969	68.3969	271.199	false	true	false	false	true	true	false
+20230828035155_seigot_main_20230824_001_stop_drivable_area_false_left_bound_offset_-0.30.patch	37.6305	37.6305	271.401	false	true	false	false	true	true	false
+20230828040053_seigot_main_20230824_001_stop_drivable_area_false_left_bound_offset_-0.30.patch	135.41	135.41	86.5999	true	false	false	false	true	true	false
+20230828040951_seigot_main_20230824_001_stop_drivable_area_false_left_bound_offset_-0.30.patch	135.316	135.316	84.3999	true	false	false	false	true	true	false
+20230828041849_seigot_main_20230824_001_stop_drivable_area_false_left_bound_offset_-0.30.patch	46.4966	46.4966	271.599	false	true	false	false	true	true	false
+20230828042746_seigot_main_20230824_001_stop_drivable_area_false_left_bound_offset_-0.30.patch	135.277	135.277	81.0006	true	false	false	false	true	true	false
+20230828043644_seigot_main_20230824_001_stop_drivable_area_false_left_bound_offset_-0.30.patch	135.277	135.277	93.7999	true	false	false	false	true	true	false
