@@ -1,0 +1,8 @@
+Player	rawDistanceSocre	distanceScore	task3Duration	isOutsideLane	isTimeout	hasCollided	hasExceededSpeedLimit	hasFinishedTask1	hasFinishedTask2	hasFinishedTask3
+20230830080720_seigot_main_20230828_with_crank_drive_planner_radius_0.75_start_megin2.0.patch	27.7988	27.7988	0	false	true	false	false	true	true	false
+20230830081617_seigot_main_20230828_with_crank_drive_planner_radius_0.75_start_megin2.0.patch	37.3997	37.3997	271	false	true	false	false	true	true	false
+20230830082515_seigot_main_20230828_with_crank_drive_planner_radius_0.75_start_megin2.0.patch	37.5022	37.5022	271.604	false	true	false	false	true	true	false
+20230830083413_seigot_main_20230828_with_crank_drive_planner_radius_0.75_start_megin2.0.patch	144.926	144.926	93.9989	true	false	false	false	true	true	false
+20230830084311_seigot_main_20230828_with_crank_drive_planner_radius_0.75_start_megin2.0.patch	47.6672	47.6672	270.994	false	true	false	false	true	true	false
+20230830085209_seigot_main_20230828_with_crank_drive_planner_radius_0.75_start_megin2.0.patch	42.9935	42.9935	17.8015	false	false	true	false	true	true	false
+20230830090107_seigot_main_20230828_with_crank_drive_planner_radius_0.75_start_megin2.0.patch	37.5751	37.5751	270	false	true	false	false	true	true	false
