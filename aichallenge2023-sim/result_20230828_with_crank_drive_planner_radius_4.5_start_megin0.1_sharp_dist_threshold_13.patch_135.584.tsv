@@ -1,0 +1,8 @@
+Player	rawDistanceSocre	distanceScore	task3Duration	isOutsideLane	isTimeout	hasCollided	hasExceededSpeedLimit	hasFinishedTask1	hasFinishedTask2	hasFinishedTask3
+20230831041406_seigot_main_20230828_with_crank_drive_planner_radius_4.5_start_megin0.1_sharp_dist_threshold_13.patch	37.4583	37.4583	270.4	false	true	false	false	true	true	false
+20230831042304_seigot_main_20230828_with_crank_drive_planner_radius_4.5_start_megin0.1_sharp_dist_threshold_13.patch	135.584	135.584	84.7998	true	false	false	false	true	true	false
+20230831043201_seigot_main_20230828_with_crank_drive_planner_radius_4.5_start_megin0.1_sharp_dist_threshold_13.patch	144.775	144.775	94.1999	true	false	false	false	true	true	false
+20230831044059_seigot_main_20230828_with_crank_drive_planner_radius_4.5_start_megin0.1_sharp_dist_threshold_13.patch	27.8266	27.8266	0	false	true	false	false	true	true	false
+20230831044957_seigot_main_20230828_with_crank_drive_planner_radius_4.5_start_megin0.1_sharp_dist_threshold_13.patch	37.5746	37.5746	270.2	false	true	false	false	true	true	false
+20230831045854_seigot_main_20230828_with_crank_drive_planner_radius_4.5_start_megin0.1_sharp_dist_threshold_13.patch	37.4667	37.4667	269.201	false	true	false	false	true	true	false
+20230831050752_seigot_main_20230828_with_crank_drive_planner_radius_4.5_start_megin0.1_sharp_dist_threshold_13.patch	37.5616	37.5616	269.4	false	true	false	false	true	true	false
