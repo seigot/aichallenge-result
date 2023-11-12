@@ -1,0 +1,8 @@
+Player	rawDistanceSocre	distanceScore	task3Duration	isOutsideLane	isTimeout	hasCollided	hasExceededSpeedLimit	hasFinishedTask1	hasFinishedTask2	hasFinishedTask3
+20231112023647_seigot_main_20231112_006_pedestrian_false_object_is_gone_false.patch	89.13	84.6735	46.7998	true	false	false	false	false	true	false
+20231112024544_seigot_main_20231112_006_pedestrian_false_object_is_gone_false.patch	145.089	137.834	87.7999	true	false	false	false	false	true	false
+20231112025441_seigot_main_20231112_006_pedestrian_false_object_is_gone_false.patch	48.007	45.6067	274	false	true	false	false	false	true	false
+20231112030339_seigot_main_20231112_006_pedestrian_false_object_is_gone_false.patch	38.1833	36.2741	274.2	false	true	false	false	false	true	false
+20231112031236_seigot_main_20231112_006_pedestrian_false_object_is_gone_false.patch	47.8455	45.4532	128.194	false	true	false	false	false	true	false
+20231112032134_seigot_main_20231112_006_pedestrian_false_object_is_gone_false.patch	145.078	137.824	89.4017	true	false	false	false	false	true	false
+20231112033031_seigot_main_20231112_006_pedestrian_false_object_is_gone_false.patch	145.094	137.839	89.1999	true	false	false	false	false	true	false
