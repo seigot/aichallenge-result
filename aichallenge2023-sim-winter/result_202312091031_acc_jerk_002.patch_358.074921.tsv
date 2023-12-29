@@ -1,0 +1,2 @@
+Player	rawLapTime	distanceScore	lapTime	isLapCompleted	isTimeout	trackLimitsViolation	collisionViolation
+20231229112113_seigot_main_202312091031_acc_jerk_002.patch	248.074921	100	358.074921	true	false	[  4,  7,  4,  1,  0]	[  1,  0,  0,  0]
