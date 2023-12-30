@@ -1,0 +1,8 @@
+Player	rawLapTime	distanceScore	lapTime	isLapCompleted	isTimeout	trackLimitsViolation	collisionViolation
+20231231013223_seigot_main_20231230_default.patch	257.158722	100	427.158722	true	false	[  5,  8,  6,  3,  0]	[  3,  0,  0,  0]
+20231231014208_seigot_main_20231230_default.patch	248.374756	100	388.374756	true	false	[  6,  8,  4,  2,  0]	[  2,  0,  0,  0]
+20231231015354_seigot_main_20231230_default.patch	362.720856	100	987.7208	true	false	[  42,  54,  13,  1,  0]	[  1,  0,  0,  0]
+20231231020429_seigot_main_20231230_default.patch	248.1249	100	378.124878	true	false	[  4,  7,  5,  2,  0]	[  1,  0,  0,  0]
+20231231021354_seigot_main_20231230_default.patch	223.866226	47.15808	393.8662	false	false	[  8,  12,  5,  1,  0]	[  2,  0,  0,  0]
+20231231022430_seigot_main_20231230_default.patch	285.626862	100	520.626831	true	false	[  12,  15,  6,  3,  0]	[  2,  0,  0,  0]
+20231231024005_seigot_main_20231230_default.patch	584.8565	49.20071	1549.85645	false	true	[  65,  84,  20,  1,  0]	[  2,  0,  0,  0]
