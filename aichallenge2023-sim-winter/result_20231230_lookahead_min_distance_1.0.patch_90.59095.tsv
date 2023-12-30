@@ -1,0 +1,8 @@
+Player	rawLapTime	distanceScore	lapTime	isLapCompleted	isTimeout	trackLimitsViolation	collisionViolation
+20231231080140_seigot_main_20231230_lookahead_min_distance_1.0.patch	40.59095	11.4564829	90.59095	false	false	[  3,  3,  1,  1,  0]	[  0,  0,  0,  0]
+20231231080856_seigot_main_20231230_lookahead_min_distance_1.0.patch	40.59095	11.4564829	90.59095	false	false	[  3,  3,  1,  1,  0]	[  0,  0,  0,  0]
+20231231081521_seigot_main_20231230_lookahead_min_distance_1.0.patch	40.59095	11.4564829	90.59095	false	false	[  3,  3,  1,  1,  0]	[  0,  0,  0,  0]
+20231231082206_seigot_main_20231230_lookahead_min_distance_1.0.patch	40.6149368	11.4564829	90.61494	false	false	[  3,  3,  1,  1,  0]	[  0,  0,  0,  0]
+20231231082831_seigot_main_20231230_lookahead_min_distance_1.0.patch	40.59295	11.4564829	90.59295	false	false	[  3,  3,  1,  1,  0]	[  0,  0,  0,  0]
+20231231083837_seigot_main_20231230_lookahead_min_distance_1.0.patch	40.62493	11.4564829	90.62493	false	false	[  3,  3,  1,  1,  0]	[  0,  0,  0,  0]
+20231231084502_seigot_main_20231230_lookahead_min_distance_1.0.patch	40.630928	11.4564829	90.63093	false	false	[  3,  3,  1,  1,  0]	[  0,  0,  0,  0]
