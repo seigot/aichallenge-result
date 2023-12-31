@@ -1,0 +1,8 @@
+Player	rawLapTime	distanceScore	lapTime	isLapCompleted	isTimeout	trackLimitsViolation	collisionViolation
+20231231115152_seigot_main_20231230_speed_proportional_gain_0.2.patch	39.7074356	11.4564829	69.7074356	false	false	[  1,  1,  1,  1,  0]	[  0,  0,  0,  0]
+20231231115828_seigot_main_20231230_speed_proportional_gain_0.2.patch	39.75541	11.4564829	79.75541	false	false	[  2,  2,  1,  1,  0]	[  0,  0,  0,  0]
+20240101120453_seigot_main_20231230_speed_proportional_gain_0.2.patch	39.7234268	11.4564829	79.72343	false	false	[  2,  2,  1,  1,  0]	[  0,  0,  0,  0]
+20240101121118_seigot_main_20231230_speed_proportional_gain_0.2.patch	39.7074356	11.4564829	79.7074356	false	false	[  2,  2,  1,  1,  0]	[  0,  0,  0,  0]
+20240101121803_seigot_main_20231230_speed_proportional_gain_0.2.patch	39.75541	11.4564829	79.75541	false	false	[  2,  2,  1,  1,  0]	[  0,  0,  0,  0]
+20240101122949_seigot_main_20231230_speed_proportional_gain_0.2.patch	39.7214279	11.4564829	79.72143	false	false	[  2,  2,  1,  1,  0]	[  0,  0,  0,  0]
+20240101123614_seigot_main_20231230_speed_proportional_gain_0.2.patch	39.6874466	11.4564829	79.68745	false	false	[  2,  2,  1,  1,  0]	[  0,  0,  0,  0]
