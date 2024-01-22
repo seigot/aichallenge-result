@@ -1,0 +1,8 @@
+Player	rawLapTime	distanceScore	lapTime	isLapCompleted	isTimeout	trackLimitsViolation	collisionViolation
+20240122035417_seigot_main_20240122_000_2_mycontroller_vehicle_interface.patch	224.669785	46.35879	339.6698	false	false	[  6,  9,  3,  0,  0]	[  2,  0,  0,  0]
+20240122040712_seigot_main_20240122_000_2_mycontroller_vehicle_interface.patch	285.4738	46.35879	510.4738	false	false	[  7,  17,  10,  0,  0]	[  1,  0,  0,  0]
+20240122041728_seigot_main_20240122_000_2_mycontroller_vehicle_interface.patch	243.3755	46.35879	443.3755	false	false	[  9,  16,  7,  0,  0]	[  1,  0,  0,  0]
+20240122042633_seigot_main_20240122_000_2_mycontroller_vehicle_interface.patch	110.13073	32.41563	230.130737	false	false	[  6,  8,  3,  1,  0]	[  2,  0,  0,  0]
+20240122043929_seigot_main_20240122_000_2_mycontroller_vehicle_interface.patch	584.5181	41.296627	1729.51807	false	true	[  49,  92,  43,  0,  0]	[  2,  0,  0,  0]
+20240122045504_seigot_main_20240122_000_2_mycontroller_vehicle_interface.patch	585.211	37.92185	1590.21094	false	true	[  65,  88,  23,  0,  0]	[  2,  0,  0,  0]
+20240122050359_seigot_main_20240122_000_2_mycontroller_vehicle_interface.patch	149.4991	32.77087	319.499084	false	false	[  8,  12,  5,  1,  0]	[  2,  0,  0,  0]
