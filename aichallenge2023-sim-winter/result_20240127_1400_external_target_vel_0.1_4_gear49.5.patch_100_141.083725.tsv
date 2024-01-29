@@ -1,0 +1,8 @@
+Player	rawLapTime	distanceScore	lapTime	isLapCompleted	isTimeout	trackLimitsViolation	collisionViolation
+20240129011256_seigot_main_20240127_1400_external_target_vel_0.1_4_gear49.5.patch	141.191666	100	141.191666	true	false	[  0,  0,  0,  0,  0]	[  0,  0,  0,  0]
+20240129013011_seigot_main_20240127_1400_external_target_vel_0.1_4_gear49.5.patch	141.173676	100	141.173676	true	false	[  0,  0,  0,  0,  0]	[  0,  0,  0,  0]
+20240129014547_seigot_main_20240127_1400_external_target_vel_0.1_4_gear49.5.patch	585.4809	50.53286	820.4809	false	true	[  21,  22,  1,  0,  0]	[  2,  0,  0,  0]
+20240129021852_seigot_main_20240127_1400_external_target_vel_0.1_4_gear49.5.patch	-1	-1	-1	false	false	false	false
+20240129023509_seigot_main_20240127_1400_external_target_vel_0.1_4_gear49.5.patch	141.257629	100	141.257629	true	false	[  0,  0,  0,  0,  0]	[  0,  0,  0,  0]
+20240129030814_seigot_main_20240127_1400_external_target_vel_0.1_4_gear49.5.patch	-1	-1	-1	false	false	false	false
+20240129031620_seigot_main_20240127_1400_external_target_vel_0.1_4_gear49.5.patch	141.083725	100	141.083725	true	false	[  0,  0,  0,  0,  0]	[  0,  0,  0,  0]
